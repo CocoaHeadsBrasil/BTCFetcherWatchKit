@@ -15,6 +15,17 @@
 		397D92311A7A62120078B826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397D92301A7A62120078B826 /* Images.xcassets */; };
 		397D92341A7A62120078B826 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397D92321A7A62120078B826 /* LaunchScreen.xib */; };
 		397D92401A7A62120078B826 /* btcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D923F1A7A62120078B826 /* btcTests.m */; };
+		397D924C1A7A626C0078B826 /* BTCFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D924B1A7A626C0078B826 /* BTCFetcher.m */; };
+		397D92571A7A62FD0078B826 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D92561A7A62FD0078B826 /* InterfaceController.m */; };
+		397D92591A7A62FD0078B826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397D92581A7A62FD0078B826 /* Images.xcassets */; };
+		397D925D1A7A62FD0078B826 /* btc WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 397D925C1A7A62FD0078B826 /* btc WatchKit App.app */; };
+		397D92651A7A62FD0078B826 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397D92631A7A62FD0078B826 /* Interface.storyboard */; };
+		397D92671A7A62FD0078B826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397D92661A7A62FD0078B826 /* Images.xcassets */; };
+		397D926A1A7A62FD0078B826 /* btc WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 397D92511A7A62FD0078B826 /* btc WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		397D92721A7A64BC0078B826 /* BTCFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D924B1A7A626C0078B826 /* BTCFetcher.m */; };
+		397D92781A7A6CB40078B826 /* GlanceInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397D92771A7A6CB40078B826 /* GlanceInterfaceController.m */; };
+		808623CBE7A88491AB5EEA1C /* libPods-btc WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDAA00D750D9624A736095D /* libPods-btc WatchKit Extension.a */; };
+		F984968BD1E87C2E00D65982 /* libPods-btc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D00F7688B24A5919F763498E /* libPods-btc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,9 +36,40 @@
 			remoteGlobalIDString = 397D921C1A7A62120078B826;
 			remoteInfo = btc;
 		};
+		397D925E1A7A62FD0078B826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397D92151A7A62120078B826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397D925B1A7A62FD0078B826;
+			remoteInfo = "btc WatchKit App";
+		};
+		397D92681A7A62FD0078B826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397D92151A7A62120078B826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397D92501A7A62FD0078B826;
+			remoteInfo = "btc WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		397D92711A7A62FD0078B826 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				397D926A1A7A62FD0078B826 /* btc WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		08478775B53A64EF4CF3CB8D /* Pods-btc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-btc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-btc/Pods-btc.debug.xcconfig"; sourceTree = "<group>"; };
+		0C81C53943CC386970F7B962 /* Pods-btc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-btc.release.xcconfig"; path = "Pods/Target Support Files/Pods-btc/Pods-btc.release.xcconfig"; sourceTree = "<group>"; };
+		0F9EC786BFADA271C00C542C /* Pods-btc WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-btc WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-btc WatchKit Extension/Pods-btc WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		397D921D1A7A62120078B826 /* btc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = btc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397D92211A7A62120078B826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397D92221A7A62120078B826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +84,22 @@
 		397D92391A7A62120078B826 /* btcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = btcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		397D923E1A7A62120078B826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		397D923F1A7A62120078B826 /* btcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = btcTests.m; sourceTree = "<group>"; };
+		397D924A1A7A626C0078B826 /* BTCFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCFetcher.h; sourceTree = "<group>"; };
+		397D924B1A7A626C0078B826 /* BTCFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCFetcher.m; sourceTree = "<group>"; };
+		397D92511A7A62FD0078B826 /* btc WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "btc WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		397D92541A7A62FD0078B826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397D92551A7A62FD0078B826 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		397D92561A7A62FD0078B826 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		397D92581A7A62FD0078B826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		397D925C1A7A62FD0078B826 /* btc WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "btc WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		397D92621A7A62FD0078B826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397D92641A7A62FD0078B826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		397D92661A7A62FD0078B826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		397D92761A7A6CB40078B826 /* GlanceInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlanceInterfaceController.h; sourceTree = "<group>"; };
+		397D92771A7A6CB40078B826 /* GlanceInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlanceInterfaceController.m; sourceTree = "<group>"; };
+		4DDAA00D750D9624A736095D /* libPods-btc WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-btc WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00F7688B24A5919F763498E /* libPods-btc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-btc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0596A9A8684B7AB540B57B /* Pods-btc WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-btc WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-btc WatchKit Extension/Pods-btc WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F984968BD1E87C2E00D65982 /* libPods-btc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +115,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397D924E1A7A62FD0078B826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808623CBE7A88491AB5EEA1C /* libPods-btc WatchKit Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +134,11 @@
 			children = (
 				397D921F1A7A62120078B826 /* btc */,
 				397D923C1A7A62120078B826 /* btcTests */,
+				397D92521A7A62FD0078B826 /* btc WatchKit Extension */,
+				397D92601A7A62FD0078B826 /* btc WatchKit App */,
 				397D921E1A7A62120078B826 /* Products */,
+				FE454D9AB3059C77AFB9282B /* Pods */,
+				EE25514473D3CD9978877BDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +147,8 @@
 			children = (
 				397D921D1A7A62120078B826 /* btc.app */,
 				397D92391A7A62120078B826 /* btcTests.xctest */,
+				397D92511A7A62FD0078B826 /* btc WatchKit Extension.appex */,
+				397D925C1A7A62FD0078B826 /* btc WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,14 +156,10 @@
 		397D921F1A7A62120078B826 /* btc */ = {
 			isa = PBXGroup;
 			children = (
-				397D92241A7A62120078B826 /* AppDelegate.h */,
-				397D92251A7A62120078B826 /* AppDelegate.m */,
+				397D922D1A7A62120078B826 /* Main.storyboard */,
 				397D922A1A7A62120078B826 /* ViewController.h */,
 				397D922B1A7A62120078B826 /* ViewController.m */,
-				397D922D1A7A62120078B826 /* Main.storyboard */,
-				397D92301A7A62120078B826 /* Images.xcassets */,
-				397D92321A7A62120078B826 /* LaunchScreen.xib */,
-				397D92271A7A62120078B826 /* btc.xcdatamodeld */,
+				397D92491A7A625B0078B826 /* Model */,
 				397D92201A7A62120078B826 /* Supporting Files */,
 			);
 			path = btc;
@@ -99,6 +168,11 @@
 		397D92201A7A62120078B826 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				397D92241A7A62120078B826 /* AppDelegate.h */,
+				397D92251A7A62120078B826 /* AppDelegate.m */,
+				397D92301A7A62120078B826 /* Images.xcassets */,
+				397D92321A7A62120078B826 /* LaunchScreen.xib */,
+				397D92271A7A62120078B826 /* btc.xcdatamodeld */,
 				397D92211A7A62120078B826 /* Info.plist */,
 				397D92221A7A62120078B826 /* main.m */,
 			);
@@ -122,6 +196,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		397D92491A7A625B0078B826 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				397D924A1A7A626C0078B826 /* BTCFetcher.h */,
+				397D924B1A7A626C0078B826 /* BTCFetcher.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		397D92521A7A62FD0078B826 /* btc WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				397D92551A7A62FD0078B826 /* InterfaceController.h */,
+				397D92561A7A62FD0078B826 /* InterfaceController.m */,
+				397D92761A7A6CB40078B826 /* GlanceInterfaceController.h */,
+				397D92771A7A6CB40078B826 /* GlanceInterfaceController.m */,
+				397D92581A7A62FD0078B826 /* Images.xcassets */,
+				397D92531A7A62FD0078B826 /* Supporting Files */,
+			);
+			path = "btc WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		397D92531A7A62FD0078B826 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				397D92541A7A62FD0078B826 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		397D92601A7A62FD0078B826 /* btc WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				397D92631A7A62FD0078B826 /* Interface.storyboard */,
+				397D92661A7A62FD0078B826 /* Images.xcassets */,
+				397D92611A7A62FD0078B826 /* Supporting Files */,
+			);
+			path = "btc WatchKit App";
+			sourceTree = "<group>";
+		};
+		397D92611A7A62FD0078B826 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				397D92621A7A62FD0078B826 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE25514473D3CD9978877BDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00F7688B24A5919F763498E /* libPods-btc.a */,
+				4DDAA00D750D9624A736095D /* libPods-btc WatchKit Extension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE454D9AB3059C77AFB9282B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08478775B53A64EF4CF3CB8D /* Pods-btc.debug.xcconfig */,
+				0C81C53943CC386970F7B962 /* Pods-btc.release.xcconfig */,
+				0F9EC786BFADA271C00C542C /* Pods-btc WatchKit Extension.debug.xcconfig */,
+				EA0596A9A8684B7AB540B57B /* Pods-btc WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,13 +271,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 397D92431A7A62120078B826 /* Build configuration list for PBXNativeTarget "btc" */;
 			buildPhases = (
+				4B5023A70182F4D4801F9F59 /* Check Pods Manifest.lock */,
 				397D92191A7A62120078B826 /* Sources */,
 				397D921A1A7A62120078B826 /* Frameworks */,
 				397D921B1A7A62120078B826 /* Resources */,
+				397D92711A7A62FD0078B826 /* Embed App Extensions */,
+				01439519AB97901F45CF0B92 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				397D92691A7A62FD0078B826 /* PBXTargetDependency */,
 			);
 			name = btc;
 			productName = btc;
@@ -160,6 +306,41 @@
 			productReference = 397D92391A7A62120078B826 /* btcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		397D92501A7A62FD0078B826 /* btc WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397D926E1A7A62FD0078B826 /* Build configuration list for PBXNativeTarget "btc WatchKit Extension" */;
+			buildPhases = (
+				37E58FE46A9E4F21F33D19F9 /* Check Pods Manifest.lock */,
+				397D924D1A7A62FD0078B826 /* Sources */,
+				397D924E1A7A62FD0078B826 /* Frameworks */,
+				397D924F1A7A62FD0078B826 /* Resources */,
+				56C8E987C2FFE8DC36FF16A3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				397D925F1A7A62FD0078B826 /* PBXTargetDependency */,
+			);
+			name = "btc WatchKit Extension";
+			productName = "btc WatchKit Extension";
+			productReference = 397D92511A7A62FD0078B826 /* btc WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		397D925B1A7A62FD0078B826 /* btc WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397D926B1A7A62FD0078B826 /* Build configuration list for PBXNativeTarget "btc WatchKit App" */;
+			buildPhases = (
+				397D925A1A7A62FD0078B826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "btc WatchKit App";
+			productName = "btc WatchKit App";
+			productReference = 397D925C1A7A62FD0078B826 /* btc WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,6 +356,12 @@
 					397D92381A7A62120078B826 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 397D921C1A7A62120078B826;
+					};
+					397D92501A7A62FD0078B826 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					397D925B1A7A62FD0078B826 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -193,6 +380,8 @@
 			targets = (
 				397D921C1A7A62120078B826 /* btc */,
 				397D92381A7A62120078B826 /* btcTests */,
+				397D92501A7A62FD0078B826 /* btc WatchKit Extension */,
+				397D925B1A7A62FD0078B826 /* btc WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +404,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		397D924F1A7A62FD0078B826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397D925D1A7A62FD0078B826 /* btc WatchKit App.app in Resources */,
+				397D92591A7A62FD0078B826 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397D925A1A7A62FD0078B826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397D92651A7A62FD0078B826 /* Interface.storyboard in Resources */,
+				397D92671A7A62FD0078B826 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01439519AB97901F45CF0B92 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-btc/Pods-btc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37E58FE46A9E4F21F33D19F9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5023A70182F4D4801F9F59 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56C8E987C2FFE8DC36FF16A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-btc WatchKit Extension/Pods-btc WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		397D92191A7A62120078B826 /* Sources */ = {
@@ -226,6 +496,7 @@
 				397D92261A7A62120078B826 /* AppDelegate.m in Sources */,
 				397D922C1A7A62120078B826 /* ViewController.m in Sources */,
 				397D92231A7A62120078B826 /* main.m in Sources */,
+				397D924C1A7A626C0078B826 /* BTCFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +508,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		397D924D1A7A62FD0078B826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397D92571A7A62FD0078B826 /* InterfaceController.m in Sources */,
+				397D92781A7A6CB40078B826 /* GlanceInterfaceController.m in Sources */,
+				397D92721A7A64BC0078B826 /* BTCFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -244,6 +525,16 @@
 			isa = PBXTargetDependency;
 			target = 397D921C1A7A62120078B826 /* btc */;
 			targetProxy = 397D923A1A7A62120078B826 /* PBXContainerItemProxy */;
+		};
+		397D925F1A7A62FD0078B826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397D925B1A7A62FD0078B826 /* btc WatchKit App */;
+			targetProxy = 397D925E1A7A62FD0078B826 /* PBXContainerItemProxy */;
+		};
+		397D92691A7A62FD0078B826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397D92501A7A62FD0078B826 /* btc WatchKit Extension */;
+			targetProxy = 397D92681A7A62FD0078B826 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -262,6 +553,14 @@
 				397D92331A7A62120078B826 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		397D92631A7A62FD0078B826 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397D92641A7A62FD0078B826 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,6 +646,7 @@
 		};
 		397D92441A7A62120078B826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08478775B53A64EF4CF3CB8D /* Pods-btc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = btc/Info.plist;
@@ -357,6 +657,7 @@
 		};
 		397D92451A7A62120078B826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C81C53943CC386970F7B962 /* Pods-btc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = btc/Info.plist;
@@ -399,6 +700,64 @@
 			};
 			name = Release;
 		};
+		397D926C1A7A62FD0078B826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = btc_WatchKit_Extension;
+				INFOPLIST_FILE = "btc WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		397D926D1A7A62FD0078B826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = btc_WatchKit_Extension;
+				INFOPLIST_FILE = "btc WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		397D926F1A7A62FD0078B826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9EC786BFADA271C00C542C /* Pods-btc WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "btc WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		397D92701A7A62FD0078B826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0596A9A8684B7AB540B57B /* Pods-btc WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "btc WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +777,7 @@
 				397D92451A7A62120078B826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		397D92461A7A62120078B826 /* Build configuration list for PBXNativeTarget "btcTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +786,25 @@
 				397D92481A7A62120078B826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397D926B1A7A62FD0078B826 /* Build configuration list for PBXNativeTarget "btc WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397D926C1A7A62FD0078B826 /* Debug */,
+				397D926D1A7A62FD0078B826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397D926E1A7A62FD0078B826 /* Build configuration list for PBXNativeTarget "btc WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397D926F1A7A62FD0078B826 /* Debug */,
+				397D92701A7A62FD0078B826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
